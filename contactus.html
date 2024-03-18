@@ -517,44 +517,25 @@
                     <!-- Form -->
                     <div class="contact form">
                         <h3>Send a Message</h3>
-                        <form action="mailto:666@666.com"
-                            method="post"
-                            name="feedback"
-                            onsubmit="return checkINFO()">
-                        <div class="formBox">
-                            <div class="row50">
-                                <div class="inputBox form-group">
-                                    <span>First Name</span>
-                                    <input class="color grey-color form-control" id="name" type="text" placeholder="Your Name...">
-                                </div>
-                                <div class="inputBox form-group">
-                                    <span>Last Name</span>
-                                    <input class="color grey-color form-control" id="name" type="text" placeholder="Your Surname...">
-                                </div>
-                            </div>
-                            <div class="row50">
-                                <div class="inputBox form-group">
-                                    <span>Email</span>
-                                    <input class="color grey-color form-control" id="email" type="text" placeholder="someone@domain.com...">
-                                </div>
-                                <div class="inputBox form-group">
-                                    <span>Mobile</span>
-                                    <input class="color grey-color form-control" id="name" type="text" placeholder="+99 987 654 3210">
-                                </div>
-                            </div>
-                            <div class="row100 form-group">
-                                <div class="inputBox">
-                                    <span>Message</span>
-                                    <textarea class="color grey-color form-control" id="message" placeholder="Write your message here..."></textarea>
-                                </div>
-                            </div>
-                            <div class="row100 form-group">
-                                <div class="inputBox button">
-                                    <input class="primary-btn form-control" type="submit" value="submit">
-                                </div>
-                            </div>
-                        </div>
-                        </form>
+                        <<form action="mailto:666@666.com"
+                        method="post"
+                        name="feedback"
+                        onsubmit="return checkINFO()">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input class="form-control" id="name" type="text" name="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input class="form-control" id="email" type="email" name="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" name="Message"></textarea>
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Submit" />
+                    </div>
+                  </form>
                     </div>
                     <!-- Info Box -->
                     <div class="contact info">
